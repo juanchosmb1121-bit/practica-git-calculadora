@@ -5,7 +5,7 @@ public class Calculadora {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Calculadora - suma");
+        System.out.println("Calculadora version principal");
 
         System.out.print("Numero 1: ");
         int a = sc.nextInt();
