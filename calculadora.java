@@ -7,14 +7,17 @@ public class Calculadora {
 
         System.out.println("Calculadora version principal");
 
+
         System.out.print("Numero 1: ");
         int a = sc.nextInt();
 
         System.out.print("Numero 2: ");
         int b = sc.nextInt();
 
-        int resultado = a + b;
-
-        System.out.println("Resultado = " + resultado);
+        System.out.println("Suma = " + (a + b));
+        System.out.println("Resta = " + (a - b));
+        System.out.println("Multiplicacion = " + (a * b));
     }
 }
+
+
