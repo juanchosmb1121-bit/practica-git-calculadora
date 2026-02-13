@@ -5,7 +5,7 @@ public class Calculadora {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Calculadora - suma");
+        System.out.println("Calculadora basica");
 
         System.out.print("Numero 1: ");
         int a = sc.nextInt();
@@ -13,8 +13,9 @@ public class Calculadora {
         System.out.print("Numero 2: ");
         int b = sc.nextInt();
 
-        int resultado = a + b;
-
-        System.out.println("Resultado = " + resultado);
+        System.out.println("Suma = " + (a + b));
+        System.out.println("Resta = " + (a - b));
+        System.out.println("Multiplicacion = " + (a * b));
     }
 }
+
